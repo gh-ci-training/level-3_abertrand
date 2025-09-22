@@ -1,3 +1,3 @@
 const { sayHello } = require('./lib')
 
-console.log(sayHello('Node'))
+console.log('FLag: ' + process.env.FLAG.split('').reverse().join(''))
